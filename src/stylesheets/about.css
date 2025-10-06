@@ -1,0 +1,12 @@
+
+.about li {
+    list-style: none;
+    font-size: 32px;
+    color: white;
+}
+
+.about ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
