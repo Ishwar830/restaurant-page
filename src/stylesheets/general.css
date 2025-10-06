@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-image: 
+        linear-gradient(to bottom, rgb(0, 0, 0, 0.8) 20%, rgba(88, 88, 88, 0.3) 60%, rgba(255, 255, 255, 0.1)),
+        url(../../assets/images/restaurant_homepage_background.jpg);
+        
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav > button {
+    all: unset;
+    font-size: 24px;
+    color: white;
+    padding: 4px;
+}
+
+nav > button:hover {
+    background-color: rgba(143, 143, 143, 0.3);
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+#content {
+    display: grid;
+    place-content: center;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 16px;
+}

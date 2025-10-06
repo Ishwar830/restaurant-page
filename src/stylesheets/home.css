@@ -1,0 +1,24 @@
+
+
+.logo-container img {
+    height: 500px;
+}
+
+.info-container {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.info-container p {
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 16px;
+}
